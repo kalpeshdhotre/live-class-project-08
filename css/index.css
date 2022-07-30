@@ -1,0 +1,129 @@
+* {  
+    margin: 0;
+    padding: 0;  
+    outline: 0;
+  }
+
+.main-div{
+    /* border: solid; */
+    width: 1600px;
+    height: 100vh;
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top right;    
+    margin: auto;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    width: 1600px;
+    justify-content:space-between ;    
+    margin: auto;
+    font-family: Roboto;       
+    padding-top: 10px;
+    
+}
+
+.signin-btn{
+    height: 20px;
+    align-self: center;
+    border-radius: 25px;
+    /* border: none; */
+    background-image: linear-gradient(to left, #4A9FF8, #AE83BD);
+    color: #ffffff;
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    /* border: red solid;        */
+    width: 550px; 
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.intro-section{
+    display: flex;
+    /* border: solid red; */
+    width: 1600px;
+    /* width: 100vh; */
+    height: 100vh;
+    margin: auto;
+}
+
+.left-section{
+    /* border: solid; */
+    width: 350px;
+    /* border: blue solid; */
+    
+}
+.left-section h1{
+    /* border: solid; */
+    width: 500px;
+
+}
+
+.imgs-div{
+    display: flex;
+    flex-direction: row;    
+    position: relative;
+    /* border: BLUE solid;*/
+    width: 1550px;    
+}
+
+.vector-img{
+    width: 100px;    
+    /* border: blue solid; */
+    position: relative;    
+    top: 550px;
+    left: 330px;    
+}
+
+.vector-dot{
+    width: 20px;
+    height: 50px;
+    /* border: solid; */
+    position: relative;
+    left: 280px;    
+    top: 480px;
+}
+
+.left-section > h1{
+    font-size: 80px;
+    margin-top: 150px; 
+    color: #4A9FF8;       
+    font-family: Roboto;
+}
+
+.left-section > h4{
+    display: block;
+    /* border: solid; */
+    font-size: 15px;
+    margin-top: 50px;    
+    font-family: ROBOTO;
+    width: 300px;
+    line-height: 200%;
+}
+
+.learn-more-btn{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    /* align-self: center; */
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to left, #4A9FF8, #AE83BD);
+    color: #ffffff;
+    position: relative;
+    top: 100px;
+}
+
+img[alt~="intro-img"] {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 100px;
+    left: 850px;
+}
