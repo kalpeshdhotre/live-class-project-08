@@ -47,7 +47,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: solid red;
+    /* border: solid red; */
     
     /* max-width: 1600px; */
     /* width: 100vh; */
@@ -80,7 +80,7 @@ nav{
   max-width: 100%;
   /* max-height: 100%; */
   margin: auto;
-  border: solid blue;
+  /* border: solid blue; */
   display: flex;
   /* display: block; */
   /* align-items: baseline; */
@@ -141,7 +141,7 @@ img[alt~="intro-img"] {
         display: flex;        
         flex-direction: column;
         /* margin: auto;              */
-        border: solid yellow;
+        /* border: solid yellow; */
         justify-content: center;        
         align-items: center;
     }
