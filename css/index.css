@@ -93,19 +93,19 @@ nav{
 }
 
  .vector-img{
-    width: 5%;             
-    /* height: 50%;    */
-    position: absolute;    
-    top: 55%;
-    right: 47rem;    
+    width: 6rem;                 
+    position: relative;    
+    top: 21rem;
+    right: -7rem;    
 }
 
  .vector-dot{
-    width: 1%;
-    /* height: 50%;     */
-    position: absolute;
-    right: 48rem;    
-    top: 55%;
+    width: 2rem;
+    height: 50%;    
+    position: relative;
+    left: 5rem;    
+    top: 43rem;
+    border: solid red;
 } 
 
 
