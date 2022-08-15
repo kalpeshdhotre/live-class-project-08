@@ -140,7 +140,7 @@ img[alt~="intro-img"] {
         /* text-align: center; */
         display: flex;        
         flex-direction: column;
-        /* margin: auto;              */
+        margin: auto;             
         /* border: solid yellow; */
         justify-content: center;        
         align-items: center;
@@ -162,7 +162,7 @@ img[alt~="intro-img"] {
         width: 300px;
         line-height: 200%;
         text-align: center;
-        margin-bottom: 15%;
+        margin-bottom: 5rem;
     }
 
     .learn-more-btn{
@@ -174,11 +174,11 @@ img[alt~="intro-img"] {
         background-image: linear-gradient(to left, #4A9FF8, #AE83BD);
         color: #ffffff;
         position: absolute;
-        top: 24%;
+        top: 19rem;
         /* left: 38%; */ 
         justify-content: center;
         justify-self: center;
-        border: solid red;
+        /* border: solid red;                */
     }
 
     .vector-img{
@@ -210,8 +210,8 @@ img[alt~="intro-img"] {
     
     .nav-items{
         font-size: 13px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     nav{
