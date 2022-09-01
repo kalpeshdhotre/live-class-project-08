@@ -138,6 +138,10 @@ img[alt~="intro-img"] {
 /* Media Query for small screen resolution less than 768px width */
 
 @media (max-width: 768px){
+    .main-div{
+        object-fit: contain;
+    }
+    
     .intro-section{
         flex-direction: column;
     }
@@ -195,7 +199,7 @@ img[alt~="intro-img"] {
         height: 50px;    
         position: absolute;
         left: 5rem;    
-        top: 42rem;
+        top: 19rem;
     } 
     img[alt~="intro-img"] {    
         /* position: absolute;     */
@@ -206,7 +210,7 @@ img[alt~="intro-img"] {
     }
     
     .nav-items{
-        font-size: 13px;
+        font-size: 9px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
